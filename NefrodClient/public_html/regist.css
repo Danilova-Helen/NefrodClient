@@ -1,0 +1,95 @@
+#one {
+    margin: 0 auto;
+    margin-top: 11.6%;
+    text-align: center;
+    width: 500px;
+}
+
+h1 {
+    font-family: 'Century';
+    color: #4671D5;
+    text-shadow: 
+		-0   -1px 0   #1240AB,
+		 0   -1px 0   #1240AB,
+		-0    1px 0   #1240AB,
+		 0    1px 0   #1240AB,
+		-1px -0   0   #1240AB,
+		 1px -0   0   #1240AB,
+		-1px  0   0   #1240AB,
+		 1px  0   0   #1240AB,
+		-1px -1px 0   #1240AB,
+		 1px -1px 0   #1240AB,
+		-1px  1px 0   #1240AB,
+		 1px  1px 0   #1240AB,
+		-1px -1px 0   #1240AB,
+		 1px -1px 0   #1240AB,
+		-1px  1px 0   #1240AB,
+		 1px  1px 0   #1240AB;
+}
+
+#four, #five, #six, #seven, #eight, #nine, #ten {
+    padding-top: 2%;
+}
+
+#eleven {
+    padding-top: 5%;
+}
+
+input {
+    display: inline-block;
+    width: 400px;
+    background-color: #fff;
+    color: #1240AB;
+    border: 2px solid #1240AB;
+    border-radius: 5px;
+    font-family: 'Century';
+    font-size: 150%;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+    border-color 0.2s ease-out;
+}
+input:hover,
+input:active {
+    background-color: #4671D5; /* fallback */
+    background-color: rgba(70, 113, 213, 0.4);
+    border-color: #1240AB; /* fallback */
+    border-color: rgb(18, 64, 171);
+    transition: background-color 0.3s ease-in,
+    border-color 0.3s ease-in;
+}
+
+.data {
+    width: 50px;
+}
+
+.cv {
+    margin-left: 7%;
+    width: 80px;
+}
+
+.btn {
+    display: inline-block;
+    width: 250px;
+    background-color: rgba(70, 113, 213, 0.4);;
+    color: #1240AB;
+    border: 2px solid #1240AB;
+    border-radius: 5px;
+    font-family: 'Century';
+    font-size: 150%;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+    border-color 0.2s ease-out;
+}
+.btn:hover,
+.btn:active {
+    background-color: #fff; /* fallback */
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: #1240AB; /* fallback */
+    border-color: rgb(18, 64, 171);
+    transition: background-color 0.3s ease-in,
+    border-color 0.3s ease-in;
+}
