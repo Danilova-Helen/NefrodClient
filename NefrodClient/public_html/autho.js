@@ -6,7 +6,7 @@ window.onload = function() {
             pass: $('input[name="pass"]').val()
         };
         var json = JSON.stringify(user);
-       /* var xhttp = new XMLHttpRequest();
+        var xhttp = new XMLHttpRequest();
         xhttp.open("POST", "localhost:8080/nefrod/frod/login", true);
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xhttp.onreadystatechange = function() {
@@ -14,7 +14,7 @@ window.onload = function() {
                 console.log(this.responseText);
             }
         };
-        xhttp.send("fname=Henry&lname=Ford");*/
+        xhttp.send("fname=Henry&lname=Ford");
 
         $.ajax({
          type: "POST",
