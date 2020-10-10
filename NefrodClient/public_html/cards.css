@@ -1,0 +1,42 @@
+#one {
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+}
+
+h1 {
+    font-family: 'Century';
+    color: #4671D5;
+    text-shadow: 
+		-0   -1px 0   #1240AB,
+		 0   -1px 0   #1240AB,
+		-0    1px 0   #1240AB,
+		 0    1px 0   #1240AB,
+		-1px -0   0   #1240AB,
+		 1px -0   0   #1240AB,
+		-1px  0   0   #1240AB,
+		 1px  0   0   #1240AB,
+		-1px -1px 0   #1240AB,
+		 1px -1px 0   #1240AB,
+		-1px  1px 0   #1240AB,
+		 1px  1px 0   #1240AB,
+		-1px -1px 0   #1240AB,
+		 1px -1px 0   #1240AB,
+		-1px  1px 0   #1240AB,
+		 1px  1px 0   #1240AB;
+}
+
+#four, #five {
+    overflow: auto;
+    border: 2px solid #1240AB;
+    border-radius: 5px;
+    height: 365px;
+    width: 1000px;
+    position: absolute;
+    left:50%;
+    margin-left: -500px;
+}
+
+#three {
+    padding-top: 74%;
+}

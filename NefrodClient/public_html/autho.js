@@ -1,5 +1,5 @@
 window.onload = function() {
-    var btn = document.getElementById("btn");
+    var btn = document.getElementById("btn1");
     btn.onclick = function() {
         var user = {
             login: $('input[name="login"]').val(),
